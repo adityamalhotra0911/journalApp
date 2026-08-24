@@ -1,0 +1,43 @@
+#spring:
+#  profiles:
+#    active: prod
+#
+#
+#logging:
+#  level:
+#    net:
+#      engineeringdigest:
+#        journalApp: DEBUG
+
+spring:
+  redis:
+    host: redis-13494.crce182.ap-south-1-1.ec2.cloud.redislabs.com
+    port: 13494
+    password: 4eusIJwAT3TAMv8WZmXY6unjRZ2YR6ox
+  data:
+    mongodb:
+      uri: mongodb+srv://adityamalhotra911_db_user:uS3CjycDP7wFauwi@cluster0.wt1vqbf.mongodb.net/journaldb?retryWrites=true&w=majority
+      database: journal
+      auto-index-creation: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: adityamalhotra.911@gmail.com
+    password: mxjr jlyu utmk kdie
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8081
+  servlet:
+    context-path: /journal
+
+weather:
+  api:
+    key: 986960b1fe2679d45f079b31b6ebc82f
+
+
