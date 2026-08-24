@@ -1,1 +1,0 @@
-26-03-02 20:05:00.380 [SpringApplicationShutdownHook] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:29, serverValue:425478}] to ac-iz6ygly-shard-00-01.wt1vqbf.mongodb.net:27017 
